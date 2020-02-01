@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<template>
+    <t t-name="ksWebsiteNoItemNoUserView">
+        <div class="o_view_nocontent">
+            <div class="o_nocontent_help">
+                <p class="o_view_nocontent_neutral_face">
+                    <center>No item to be shown due to security reasons.</center>
+                </p>
+                <p>
+                    <center>Please <strong> Login </strong> to see your dashboard.</center>
+                </p>
+            </div>
+        </div>
+    </t>
+
+    <t t-name="ksWebsiteNoItemView">
+        <div class="o_view_nocontent">
+            <div class="o_nocontent_help">
+                <p class="o_view_nocontent_neutral_face">
+                    <center>Your personal dashboard is empty</center>
+                </p>
+                <p>
+                    <center>To add dashboard items, goto My Dashboard and click on <strong>Add</strong> button.</center>
+                </p>
+            </div>
+        </div>
+    </t>
+</template>

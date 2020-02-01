@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<eagle>
+
+    <template id="eagle_place_into_bar" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div class="o_panel_header">
+                <i class="fa fa-th-large"/>
+                Dashboard Ninja Snippets
+            </div>
+
+            <div class="o_panel_body">
+                <t t-snippet="eagle_website_dashboard.snippet_dashboard_home_page"
+                   t-thumbnail="/eagle_website_dashboard/static/description/images/download.png"/>
+            </div>
+        </xpath>
+    </template>
+
+</eagle>

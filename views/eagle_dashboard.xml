@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<eagle>
+
+    <template id="snippet_dashboard_home_page" name="Dashboard Ninja">
+        <section class="snippet_dashboard_home_page">
+            <div class="eagle_container_2 m-auto eagle_dynamic_dashboard" data-snippet_type="0" data-id="0" data-selection="user_data"
+                 data-collection_name="Please select Data Fisrt" data-snippet_layout="0">
+                <a href="#" data-action="eagle_dashboard_filter_dialog" class="eagle_dashboard_filter_dialog"
+                   data-product_slider_configure=""></a>
+            </div>
+        </section>
+    </template>
+
+    <template id="eagle_dashboard_options" name="Dashboard Snippet Options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js='dashboard_selector_action'
+                 data-selector=".eagle_dynamic_dashboard">
+                <a tabindex="-1" href="#" class="dropdown-item js_dashboard_dropdown" data-dashboard_configure="">
+                    Website Dashboard
+                </a>
+            </div>
+        </xpath>
+    </template>
+
+</eagle>

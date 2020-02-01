@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eagle>
+    <template id="eagle_assets_frontend" inherit_id="web.assets_frontend" name="Auth Assets">
+        <xpath expr="." position="inside">
+
+            <!-- All CSS of dashboard ninja library-->
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/lib/css/Chart.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/lib/css/Chart.min.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/lib/css/gridstack.min.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/lib/css/spectrum.css"/>
+
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_gridstack.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_item_theme.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard.scss"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_item.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_pro.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_options.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_icon_container_modal.css"/>
+            <link type="text/css" rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_toggle_icon.css"/>
+
+            <link type="text/css" rel="stylesheet" href="/eagle_website_dashboard/static/src/css/main.css"/>
+
+            <!-- All js files of dasbhoard ninja library-->
+            <script type="text/javascript" src="/eagle_dashboard/static/lib/js/jquery.ui.touch-punch.min.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/lib/js/Chart.bundle.min.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/lib/js/gridstack.min.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/lib/js/gridstack.jQueryUI.min.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/lib/js/chartjs-plugin-datalabels.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/lib/js/spectrum.js"/>
+
+            <script type="text/javascript" src="/eagle_website_dashboard/static/src/js/eagle_dashboard_filter_dialog.js"/>
+            <script type="text/javascript" src="/eagle_website_dashboard/static/src/js/eagle_dashboard.js"/>
+        </xpath>
+    </template>
+</eagle>
+
